@@ -1,13 +1,1 @@
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: ZitaoTech
-      url-base: https://github.com/ZitaoTech
-  projects:
-    - name: zmk
-      remote: ZitaoTech
-      revision: bbkeyboard_tp
-      import: app/west.yml
-  self:
-    path: config
+manifest:  remotes:    - name: zmkfirmware      url-base: https://github.com/zmkfirmware  projects:    - name: zmk      remote: zmkfirmware      revision: main  #%20You%20can%20replace%20'main'%20with%20a%20specific%20tag%20like%20'v3.1.0'%20for%20a%20stable%20release%20%20%20%20%20%20import:%20app/west.yml%20%20self:%20%20%20%20path:%20config
